@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 500px;
+  max-height: 700px;
+  border-radius: 10px;
+  border: 1px solid #888888;
+  padding: 15px;
+}
+
+.main-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.note-container {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #777777;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-info {
+  flex: 1;
+}
+
+.note-title {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.note-description {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.note-button {
+  border: none;
+  background-color: transparent;
+}
+
+.delete-button {
+  color: red;
+}
+
+.complete-button {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.complete-button.completed {
+  color: green;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #777777;
+  padding-bottom: 10px;
+}
+
+.main-input {
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.main-textarea {
+  resize: none;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 100px;
+}
+
+.form-button {
+  border: none;
+  background-color: transparent;
+  border: 1px solid #888888;
+  padding: 5px;
+  border-radius: 5px;
+}
